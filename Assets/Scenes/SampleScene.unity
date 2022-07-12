@@ -585,7 +585,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
-  m_LocalPosition: {x: 0, y: 15, z: -10}
+  m_LocalPosition: {x: 0, y: 30, z: -20}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -699,7 +699,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6546646772685860736, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: m_Name
-      value: BulletSpawner (3)
+      value: Turret
       objectReference: {fileID: 0}
     - target: {fileID: 6546646772685860746, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: Player
@@ -711,7 +711,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6546646772685860749, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 6546646772685860749, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: m_LocalPosition.y
@@ -760,7 +760,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6546646772685860736, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: m_Name
-      value: BulletSpawner (2)
+      value: Turret
       objectReference: {fileID: 0}
     - target: {fileID: 6546646772685860746, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: Player
@@ -772,7 +772,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6546646772685860749, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6546646772685860749, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: m_LocalPosition.y
@@ -977,7 +977,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6546646772685860736, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: m_Name
-      value: BulletSpawner (1)
+      value: Turret
       objectReference: {fileID: 0}
     - target: {fileID: 6546646772685860746, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: Player
@@ -997,7 +997,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6546646772685860749, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -9
+      value: -15
       objectReference: {fileID: 0}
     - target: {fileID: 6546646772685860749, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1151,7 +1151,7 @@ Transform:
   m_GameObject: {fileID: 2093189940}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 1, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1267877141}
@@ -1236,7 +1236,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6546646772685860736, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: m_Name
-      value: BulletSpawner
+      value: Turret
       objectReference: {fileID: 0}
     - target: {fileID: 6546646772685860746, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: Player
@@ -1256,7 +1256,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6546646772685860749, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 6546646772685860749, guid: 6468fc50777b8c84f8a0e7fdc4f13055, type: 3}
       propertyPath: m_LocalRotation.w
