@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
-    public float Speed = 0.05f;
+    public float Speed = 5f;
 
     void Start()
     {
@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour
 
     void Update()
     {
-        transform.Translate(0f, 0f, Speed);
+        transform.Translate(0f, 0f, Speed * Time.deltaTime);
     }
 
     /*

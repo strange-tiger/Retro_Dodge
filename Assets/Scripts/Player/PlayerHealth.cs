@@ -7,6 +7,8 @@ public class PlayerHealth : MonoBehaviour
     public void Die()
     {
         gameObject.SetActive(false);
+
+        FindObjectOfType<GameManager>().End();
     }
 
     private void OnTriggerEnter(Collider other)
